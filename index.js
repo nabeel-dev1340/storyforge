@@ -11,7 +11,7 @@ app.use(middleware);
 //Routes
 app.use("/api", storyRoutes);
 
-app.get("/hello", (req, res) => {
+app.get("/ping", (req, res) => {
   res.status(200).send("Hello");
 });
 
