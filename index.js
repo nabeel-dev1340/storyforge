@@ -11,6 +11,10 @@ app.use(middleware);
 //Routes
 app.use("/api", storyRoutes);
 
+app.get("/ping", (req, res) => {
+  res.status(200).send("Hello");
+});
+
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
