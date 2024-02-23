@@ -56,6 +56,10 @@ const EMOTIONAL_TONE = [
   "Humorous",
   "Romantic",
 ];
+const JSON_SCHEMA = {
+  storyName: "Suggest a suitable name for your story",
+  story: "Contains the whole story",
+};
 
 module.exports = {
   MODEL,
@@ -66,4 +70,5 @@ module.exports = {
   TONE,
   STYLE,
   EMOTIONAL_TONE,
+  JSON_SCHEMA,
 };
